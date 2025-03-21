@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Academy | Transform Your Future</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style12.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Nova Academy</span>
+            </div>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#programs">Our Programs</a></li>
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#apply" class="apply-btn">Begin Your Journey</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Future Through Innovation</h1>
+                <p>Join a community of visionaries, innovators, and future leaders. At Nova Academy, we don't just educate – we inspire change-makers.</p>
+                <div class="hero-buttons">
+                    <a href="#apply" class="btn btn-primary">Start Your Application</a>
+                    <a href="#virtual-tour" class="btn btn-secondary">Take a Virtual Tour</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                     alt="Students collaborating">
+            </div>
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Employment Rate</p>
+                </div>
+                <div class="stat-item">
+                    <h3>250+</h3>
+                    <p>Research Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>45+</h3>
+                    <p>Global Partners</p>
+                </div>
+                <div class="stat-item">
+                    <h3>$50M</h3>
+                    <p>Research Funding</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2>Pioneering Programs</h2>
+            <div class="program-grid">
+                <div class="program-card">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="AI & Robotics">
+                    <h3>AI & Robotics</h3>
+                    <p>Shape the future of technology through cutting-edge research and hands-on innovation in artificial intelligence and robotics.</p>
+                    <a href="#" class="btn btn-outline">Explore Program</a>
+                </div>
+                <div class="program-card">
+                    <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Sustainable Innovation">
+                    <h3>Sustainable Innovation</h3>
+                    <p>Lead the green revolution with our comprehensive program in sustainable technology and environmental innovation.</p>
+                    <a href="#" class="btn btn-outline">Explore Program</a>
+                </div>
+                <div class="program-card">
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Digital Business">
+                    <h3>Digital Business</h3>
+                    <p>Transform the business landscape through digital innovation and strategic leadership in the global marketplace.</p>
+                    <a href="#" class="btn btn-outline">Explore Program</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="program">Program of Interest</label>
+                        <input type="text" id="program" placeholder="What program interests you?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" placeholder="Tell us about your aspirations..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <p>Innovation Campus, 123 Future Avenue, Tech City</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📧</span>
+                        <p>admissions@nova-academy.edu</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📱</span>
+                        <p>+1 (555) 234-5678</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🌐</span>
+                        <p>Virtual Tours Available 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nova Academy</h3>
+                    <p>Empowering the next generation of innovators and leaders through cutting-edge education and research excellence.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fas facebook">FB</i></a>
+                        <a href="#" class="social-link">TW</a>
+                        <a href="#" class="social-link">IN</a>
+                        <a href="#" class="social-link">YT</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#library">Digital Library</a></li>
+                        <li><a href="#events">Events Calendar</a></li>
+                        <li><a href="#news">Latest News</a></li>
+                        <li><a href="#alumni">Alumni Network</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nova Academy. Pioneering the Future of Education.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            document.querySelector('.nav-toggle').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
